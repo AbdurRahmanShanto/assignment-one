@@ -1,0 +1,525 @@
+@media only screen and (max-width: 930px) {
+    
+    .offer_section{
+        height: 40vh;
+        width: 68vw;
+    }
+    .offer_section select{
+        height: 5vh;
+        width: 10vw;
+    }
+    .long{
+        height: 5vh;
+        width: 34vw;
+    }
+    .little{
+        height: 5vh;    
+        width: 10.5vw;
+    }
+
+    .whyzppar{
+    height: 6vh ;
+    width: 15vw;
+    }
+    .logo img{
+        height: 4vh;
+        width:15vw;
+    }
+    .foot_headting{
+        display: none;
+    }
+
+    .second_section a{
+        color: black;
+        padding: 0px .7vw;
+        font-size: 18px;
+    }
+
+    .account_secure {
+
+        height: 27vh;
+        width: 30vw;
+
+    & h1{
+        font-size: 2vh;
+        color: #000;
+        padding-top: 10px;
+    }
+    & p{
+        font-size: 1.8vh;
+    }
+
+    
+
+    }
+
+    .Newbie_Friendly {
+        height: 27vh;
+        width: 30vw;
+
+        & h1{
+            font-size: 2vh;
+            color: #000;
+            padding-top: 10px;
+        }
+        & p{
+            font-size: 1.8vh;
+        }
+    }
+
+    .Multiple_Payments {
+        height: 35vh;
+        width: 30vw;
+
+        & h1{
+            font-size:15px;
+        }
+        & p{
+            font-size: 1.8vh;
+        }
+    }
+
+    .details a {
+        font-size: 1.5vh;
+        color: #000;
+        text-decoration: underline;
+    }
+
+
+    /* ---------------Currency_icon----------------- */
+
+    .Currency_icon{
+        height: 35vh;
+        width: 100%;
+
+        & img{
+            height: 90px;
+            width: 70vw;
+            margin-top: 70px;
+        }
+    }
+    /* --------------third section------------- */
+
+
+
+    /* --------------------- four section ---------------- */
+
+    .button_third{
+        padding: 10px 2vw;
+        margin-left: 8px;
+        border-radius: 25px;
+        border: 1px solid #000;
+        background-color:transparent;
+        margin-left:calc(100% - 57vw);
+        margin-top: 50px;
+
+    }
+
+    .first_color{    
+        /* height: 10vh; */
+        width: 40.23vw;
+        margin-right: calc(37vw - 22vw);
+    
+    }
+    .second_color{
+        width: 40.23vw;
+        /* margin-right: calc(37vw - 22v) */
+    }
+    .four_sec_btn button{
+        margin-right: 20vw;
+        height: 40px;
+        width: 120px;
+        text-align: center;   
+    }
+    .four_sec_btm button{
+        margin-left: 20vw;
+        height: 40px;
+        width: 120px;
+        text-align: center;   
+    }
+    .Buy{
+        margin-right: 420px;
+    }
+    .four_heading{
+    margin-right: 180px;
+    }
+    .foot_headting{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 822px) {
+    
+    .Buy{
+        margin-right: 400px;
+    }
+    .four_heading{
+    margin-right: 170px;
+    }
+    .first_color{
+        font-size: 1.2vw;
+    }
+    .second_color{
+        font-size: 1.2vw;
+        
+    }
+    .logo img{
+        height: 4vh;
+        width:15vw;
+    }
+    .foot_headting{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+    .Buy{
+        margin-right: 320px;
+    }
+    .four_heading{
+    margin-right: 170px;
+    }
+    .first_color{
+        font-size: 1.2vw;
+    }
+    .second_color{
+        font-size: 1.2vw;
+        
+    }
+
+    
+    .first_color{
+    margin-right: calc(37vw - 25vw);
+    }
+    .second_color{
+    margin-left: calc(37vw - 25vw);
+
+    }
+    .logo img{
+        height: 4vh;
+        width:15vw;
+    }
+    .four_sec_btn button{
+        margin-right: 20vw;
+        height: 40px;
+        width: 120px;
+        text-align: center;   
+    }
+    .four_sec_btm button{
+        margin-left: 20vw;
+        height: 40px;
+        width: 120px;
+        text-align: center;  
+    }
+
+    .Buy{
+        margin-right: 320px;
+    }
+    .four_heading{
+    margin-right: 150px;
+    }
+    .second_section{
+        display: none;
+    }
+    .Currency_icon{
+        height: 35vh;
+        width: 100vw;
+        padding: 6vw 2vh;
+    }
+
+    .account_secure{
+
+        & h1{
+            font-size: 2vw;
+        
+        }
+        & p{
+            font-size: 1.5vw;
+        }
+
+    }
+    .details a{
+        font-size: 1.5vw;
+        text-decoration: underline;
+    }
+
+    .Newbie_Friendly{
+        & h1{
+            font-size: 2vw;
+        
+        }
+        & p{
+            font-size: 1.5vw;
+        }
+    }
+    .Multiple_Payments{
+        & h1{
+            font-size: 2vw;
+        
+        }
+        & p{
+            font-size: 1.5vw;
+        }
+
+    }
+    .foot_headting{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .offer_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+    .offer_section select{
+        width: 100%;
+        margin-top: 10px ;
+        height: 50px;
+        padding: 8px 15px;
+        margin-bottom: 5px;
+    }
+    .offer_section h1{
+        /* font-size: 3.5vw;
+        text-align: center;
+        margin-top: 30px; */
+        display: none;
+    }
+    .offer_section{
+        height: 50vh;
+        width: 80vw;
+    }
+    .long{
+        /* padding: 10px 20px; */
+        height: 5vh;
+        width: 60vw;
+        background-color: #FEEFAD;
+
+    }
+    .little{
+        height: 5vh;
+        width: 60vw;
+        margin-left: 10px;
+        background-color: #FEEFAD;
+        margin-bottom: 10px;
+    }
+    .whyzppar{
+        height: 40px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .foot_headting{
+        display: none;
+    }
+
+    
+
+    /* --------------color_galary----------- */
+
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .third_section{
+        height: 150vh;
+    }
+    .account_secure{
+        margin-top: 20px;
+        height: 27vh;
+        width: 40vw;
+
+        & h1{
+            font-size: 3vw;
+        }
+
+        & p{
+            font-size: 2.8vw;
+        }
+    }
+    .details a{
+        font-size: 2.8vw;
+        color: #000;
+        text-decoration: underline
+    }
+
+
+    .Newbie_Friendly{
+        margin-top: 20px;
+        height: 27vh;
+        width: 40vw;
+
+        & h1{
+            font-size: 3vw;
+        }
+
+        & p{
+            font-size: 2.8vw;
+        }
+    }
+
+
+    .Multiple_Payments{
+        margin-top: 20px;
+        height: 27vh;
+        width: 40vw;
+
+        & h1{
+            font-size: 3vw;
+        }
+
+        & p{
+            font-size: 2.8vw;
+        }
+    }
+
+    .button_third{
+        height: 5vh;
+        width: 40vw;
+        text-align: center;
+        margin-left: 30vw;
+    }
+    .foot_headting{
+        display: none;
+    }
+
+    /* -----------------four------------------ */
+
+    .four_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left_part{
+        border: none;
+    }
+    .first_color{    
+        /* height: 10vh; */
+        width: 70vw;
+        margin-left: calc(37vw - 30vw);
+        font-size: 2.4vw;
+        
+    
+    }
+    .second_color{
+        width: 70vw;
+        margin-left: calc(37vw - 40vw);
+        font-size: 2.4vw;
+    }
+
+    .four_sec_btn button{
+        margin-right: 320px;
+        height: 40px;
+        width: 70vw;
+    }
+    .four_sec_btm button{
+        margin-left: 270px;
+        height: 40px;
+        width: 70vw; 
+    }
+
+    .four_heading{
+        /* margin-bottom: 10px;
+        margin-right: 220px; */
+        display: none;
+    }
+    .Buy{
+        margin-right: 600px;
+        display: none;
+        margin-bottom: 10px;
+    }
+    .right_part{
+        border-top: 1px solid black;
+        
+    }
+    .five_section h1{
+        font-size: 7vw;
+    }
+    .five_section button{ 
+        height: 6vh;
+        width: 70vw;
+    }
+    .heading_footer{
+        flex-wrap: wrap;
+    }
+    .h1{
+        display: none;
+    }
+
+    .Copyright{
+        font-size: 2.5vw;
+        padding: 5vh 4vw;
+        text-align: center;
+    }
+
+    .logo img{
+        height: 2vh;
+        width:25vw;
+        margin-left: 10px;
+    }
+
+    .thrd_section{
+        display: none;
+    }
+
+    .second_btn{
+        display: block;
+        display: flex;
+        height: 30px;
+        font-weight: 800;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 20px;
+    }
+    .second_btn button{
+        height: 40px;
+        width: 40px;
+        background-color: #00EBC7;
+        border-radius: 50%;
+        border: none;
+
+    }
+    ._sec_btn{
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        margin: 0px 20px;
+        justify-content: center;
+    }
+    .line{
+        margin-top: 50px;
+    }
+    body{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+/* @-moz-document */
+/* @-moz-keyframes */
+/* @-ms-viewport */
+/* @-o-keyframes */
+/* @-o-keyframes */
+/* @-o-viewport */
+/* @-webkit-keyframes */
+/* @charset */
+/* @counter-style */
+/* @font-face */
+/* @font-feature-values */
+/* @layer */
+/* @media */
+/* @namespace */
+
+/* @page */
+/* @property */
+/* @supports */
